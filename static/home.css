@@ -1,6 +1,6 @@
 body {
   background-color: #4b3a60;
-  margin-top: 100px;
+  margin-top: 25px;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -41,12 +41,11 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  border-bottom-color: #251d30;
-  color: #251d30;
+.float_left{
+  display: inline-block;
 }
 
-a:focus {
+a:hover {
   border-bottom-color: #251d30;
   color: #251d30;
 }
