@@ -11,7 +11,7 @@ def home():
 
 @app.route("/resume/")
 def resume():
-    return flask.redirect("https://rebrand.ly/kevsilver_resume")
+    return render_template('home.html')
 
 
 if __name__ == '__main__':
