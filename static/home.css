@@ -43,6 +43,8 @@ a {
 
 .float_left{
   display: inline-block;
+  font-family: Averta, sans-serif;
+  color: #fff;
 }
 
 a:hover {
